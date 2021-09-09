@@ -1,0 +1,23 @@
+# Vagrant box to use. Only debian bullseye has been tested
+# boxname: "debian/bullseye64"
+
+# PgSQL version to use
+# pgver: "13"
+
+# The vIP following the PostgreSQL instance
+# base_ip: "192.168.122.90"
+
+# List of node names to create
+# pg_nodes:
+#   - "srv1"
+#   - "srv2"
+
+# The name of the storage pool when VM disks and shared storage are created
+# storage_pool: "default"
+
+# The name of the shared storage image
+# storage_name: "san_storage.img"
+
+# Additional environment variable to set during provisioning. E.g:
+# prov_env:
+#   "http_proxy": "http://192.168.122.1:3142"
